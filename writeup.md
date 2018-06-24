@@ -2,7 +2,7 @@
 
 [//]: # (Image References)
 
-[image0]: ./capture-with-labels.png "Web images"
+[image0]: ./captures-with-labels.png "Web images"
 [image1]: ./data-vis.png "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
