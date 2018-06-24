@@ -1,25 +1,9 @@
 # **Traffic Sign Recognition** 
 
-## Writeup
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
-**Build a Traffic Sign Recognition Project**
-
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
-
-
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
+[image0]: ./capture-with-labels.png "Web images"
+[image1]: ./data-vis.png "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
@@ -42,8 +26,7 @@ You're reading it! and here is a link to my [project code](https://github.com/aa
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
+I used the numpy to calculate summary statistics of the traffic signs data set:
 
 * The size of training set is 118466
 * The size of the validation set is 4410
@@ -53,9 +36,9 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. It is a plot showing the number of samples per class in the dataset.
 
-![alt text][image1]
+![number of samples per class][image1]
 
 ### Design and Test a Model Architecture
 
@@ -122,9 +105,7 @@ I did not do any further ammendments to the architecture. However, it can certai
 
 Here are German traffic signs that I found on the web:
 
-[image1]: ./captures/cap_1_40.png "Visualization"
-
-![cap_1_40.png][./captures/cap_1_40.png] ![cap_2_17.jpg][./captures/cap_2_17.jpg] ![cap_3_33.jpg][./captures/cap_3_33.jpg]
+![Traffic Signs from web and their predicted labels][image0]
 
 Some of then are tilted or taken from different perspectives. Such were chosen to see how the model performs on them.
 
