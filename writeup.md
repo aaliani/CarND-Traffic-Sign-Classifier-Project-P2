@@ -122,6 +122,8 @@ I did not do any further ammendments to the architecture. However, it can certai
 
 Here are German traffic signs that I found on the web:
 
+[image1]: ./captures/cap_1_40.png "Visualization"
+
 ![cap_1_40.png][./captures/cap_1_40.png] ![cap_2_17.jpg][./captures/cap_2_17.jpg] ![cap_3_33.jpg][./captures/cap_3_33.jpg]
 
 Some of then are tilted or taken from different perspectives. Such were chosen to see how the model performs on them.
